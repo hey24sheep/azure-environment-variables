@@ -1,0 +1,92 @@
+{
+    "manifestVersion": 1,
+    "id": "envar",
+    "version": "0.1.0",
+    "name": "Environment Variables",
+    "description": "Environment Variables setting extension for Azure DevOps. Set or override env variables based either on dynamic paths based on task/cache/workspace or static vals.",
+    "publisher": "hey24sheep",
+    "public": true,
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "icons": {
+        "default": "images/extension-icon.png"
+    },
+    "screenshots": [],
+    "content": {
+        "details": {
+            "path": "README.md"
+        },
+        "license": {
+            "path": "LICENSE"
+        },
+        "privacy": {
+            "path": "PRIVACY.md"
+        }
+    },
+    "links": {
+        "getstarted": {
+            "uri": "https://github.com/hey24sheep/azure-environment-variables"
+        },
+        "support": {
+            "uri": "https://github.com/hey24sheep/azure-environment-variables/issues"
+        },
+        "license": {
+            "uri": "https://github.com/hey24sheep/azure-environment-variables/LICENSE.md"
+        },
+        "privacypolicy": {
+            "uri": "https://github.com/hey24sheep/azure-environment-variables/PRIVACY.md"
+        }
+    },
+    "badges": [
+        {
+            "href": "https://www.buymeacoffee.com/hey24sheep",
+            "uri": "https://cdn.buymeacoffee.com/buttons/default-orange.png",
+            "description": "Buy me a coffee <3"
+        }
+    ],
+    "branding": {
+        "color": "rgb(36, 43, 50)",
+        "theme": "dark"
+    },
+    "repository": {
+        "type": "git",
+        "uri": "https://github.com/hey24sheep/azure-flutter-tasks"
+    },
+    "tags": [
+        "Extension",
+        "Release",
+        "Build",
+        "Environment",
+        "Variable",
+        "Expand",
+        "Override",
+        "Path"
+    ],
+    "files": [
+        {
+            "path": "task"
+        },
+        {
+            "path": "images",
+            "addressable": true
+        }
+    ],
+    "contributions": [
+        {
+            "id": "environment-variables",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "task"
+            }
+        }
+    ]
+}
