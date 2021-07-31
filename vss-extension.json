@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "envar",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "name": "Environment Variables",
     "description": "Environment Variables setting extension for Azure DevOps. Set or override env variables based either on dynamic paths based on task/cache/workspace or static vals.",
     "publisher": "hey24sheep",
@@ -43,20 +43,13 @@
             "uri": "https://github.com/hey24sheep/azure-environment-variables/PRIVACY.md"
         }
     },
-    "badges": [
-        {
-            "href": "https://www.buymeacoffee.com/hey24sheep",
-            "uri": "https://cdn.buymeacoffee.com/buttons/default-orange.png",
-            "description": "Buy me a coffee <3"
-        }
-    ],
     "branding": {
         "color": "rgb(36, 43, 50)",
         "theme": "dark"
     },
     "repository": {
         "type": "git",
-        "uri": "https://github.com/hey24sheep/azure-flutter-tasks"
+        "uri": "https://github.com/hey24sheep/azure-environment-variables"
     },
     "tags": [
         "Extension",
