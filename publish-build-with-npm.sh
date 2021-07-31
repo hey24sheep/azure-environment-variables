@@ -1,7 +1,7 @@
 # Build TS
 npm install -g typescript
 cd ./task
-npm install --production
+npm install
 tsc 
 cd ../
 

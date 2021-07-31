@@ -1,13 +1,13 @@
 {
   "name": "task",
   "version": "1.0.0",
-  "description": "",
+  "description": "Set custom environment variables either based on pipeline tasks or static data",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "hey24sheep",
   "license": "ISC",
   "dependencies": {
     "azure-pipelines-task-lib": "^3.1.6"

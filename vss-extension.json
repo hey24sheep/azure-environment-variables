@@ -15,7 +15,7 @@
         "Azure Pipelines"
     ],
     "icons": {
-        "default": "images/extension-icon.png"
+        "default": "images/extension_icon.png"
     },
     "screenshots": [],
     "content": {
@@ -79,7 +79,7 @@
     ],
     "contributions": [
         {
-            "id": "environment-variables",
+            "id": "EnvironmentVariables",
             "type": "ms.vss-distributed-task.task",
             "targets": [
                 "ms.vss-distributed-task.tasks"
