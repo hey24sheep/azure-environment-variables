@@ -1,5 +1,13 @@
 # Azure Environment Variables Extension
 
+[![](https://img.shields.io/badge/hey24sheep.com-202124.svg?style=for-the-badge&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAADIAAAAcCAMAAAAURxzFAAAADFBMVEUAAAAbvfUcvfUcvfXEslmQAAAAA3RSTlMA4PgXbk0cAAAATElEQVR42u3RgQbAMAyE4dvu%2Fd95Y%2FiHkRyEkUPTK5%2BqajMZ32FH00kriWltYkqDsHJekmd8AQiBvPWfSPH8iPhQcEv0lYycCDGWzQW5CAN5SL8q5AAAAABJRU5ErkJggg%3D%3D)](https://hey24sheep.com)
+
+![](https://img.shields.io/visual-studio-marketplace/release-date/hey24sheep.envar?color=green&style=flat-square)
+![](https://img.shields.io/visual-studio-marketplace/azure-devops/installs/total/hey24sheep.envar?style=flat-square)
+![](https://img.shields.io/visual-studio-marketplace/last-updated/hey24sheep.envar?style=flat-square)
+![](https://img.shields.io/visual-studio-marketplace/r/hey24sheep.envar?color=green&style=flat-square)
+![](https://img.shields.io/visual-studio-marketplace/v/hey24sheep.envar?label=current%20version&style=flat-square)
+
 "Environment Variables" is a DevOps Pipeline task extension to create or override 'Environment Variables' with dynamic/custom values/paths based on tasks or static data.
 
 Sometimes there is a need to create or override an environment variable during build either based on a task, maybe override a var created by another task or create a new cache restore directory env var.
@@ -16,6 +24,16 @@ To use the task, go to your pipeline -> build definition and add "Environment Va
 * `Environment Variables (comma separated)` : Set environment variable `key=value` (`separated by ','`). Example input like "`webpack=$(Pipeline.Workspace)/sdks/webpack, flutterToolPath=cacheFolder/flutter, isProd=true, flavor=prod-internal, arg1=something`". Note : Do not use spaces in name.
 
 You can use the variable just like any other variable like `$(webpack)`, `$(isProd)`.
+
+## More
+
+Check out my other useful **Flutter** packages on [pub.dev](https://pub.dev/publishers/hey24sheep.com/packages) 
+    or more **DevOps** extensions on [marketplace](https://marketplace.visualstudio.com/publishers/Hey24sheep)
+
+# Rate the extension  
+<p>
+Don't forget to rate the extension if you find it useful
+</p>
 
 # Support
 

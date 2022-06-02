@@ -1,7 +1,7 @@
 {
     "manifestVersion": 1,
     "id": "envar",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "name": "Environment Variables",
     "description": "Environment Variables setting extension for Azure DevOps. Set or override env variables based either on dynamic paths based on task/cache/workspace or static vals.",
     "publisher": "hey24sheep",

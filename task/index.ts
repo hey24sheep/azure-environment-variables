@@ -8,8 +8,8 @@ async function run() {
             delimitedString.forEach((str) => {
                 var kvp = str.split('=');
                 var key = kvp[0].trim();
-                var val = kvp[1].trim();
-                console.log(`Set $(${key}) with '${val}'`);
+                var val = str.substring(str.indexOf('=')+1)
+                console.log(`Set key: $(${key}) with value : '${val}'`);
                 task.setVariable(key, val);
             });
             task.setResult(task.TaskResult.Succeeded, 'Environment Variables are set');
